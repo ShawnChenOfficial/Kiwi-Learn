@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Mode -->
+    <declare-styleable name="ViewStyle">
+        <attr name="colorBorder" format="color|reference"></attr>
+        <attr name="colorDisable" format="color|reference"></attr>
+        <attr name="colorPrimaryContents" format="color|reference"></attr>
+        <attr name="colorSecondaryContents" format="color|reference"></attr>
+        <attr name="colorGreyBackground" format="color|reference"></attr>
+        <attr name="colorWhiteBackground" format="color|reference"></attr>
+        <attr name="colorAgreement" format="color|reference"></attr>
+        <attr name="colorRadioOnChecked" format="color|reference"></attr>
+        <attr name="colorButtonOnHome" format="reference|color"></attr>
+    </declare-styleable>
+</resources>

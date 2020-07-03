@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    android:id="@+id/activity_login"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="?attr/colorWhiteBackground">
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/layout_header"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="8%"
+        android:background="?attr/colorWhiteBackground">
+
+        <ImageView
+            android:id="@+id/imageView_applogo_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="90%"
+            app:layout_marginLeftPercent="1%"
+            app:layout_marginRightPercent="1%"
+            app:layout_marginTopPercent="5%"/>
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView_applogo_small"
+            android:layout_alignBottom="@id/imageView_applogo_small"
+            android:text="TextView"
+            android:textColor="?attr/colorSecondaryContents"
+            android:textSize="26dp"
+            app:layout_marginLeftPercent="1%"
+            app:layout_marginRightPercent="1%"
+            app:layout_marginTopPercent="5%"/>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:background="@drawable/backgournd_border"
+            android:layout_alignParentBottom="true"
+            app:layout_heightPercent="3%"/>
+    </android.support.percent.PercentRelativeLayout>
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/layout_body"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="84%"
+        android:layout_below="@+id/layout_header"
+        android:background="?attr/colorWhiteBackground">
+
+        <ImageView
+            android:id="@+id/imageView_applogo_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:layout_heightPercent="40%"
+            app:layout_widthPercent="50%"
+            app:layout_marginTopPercent="5%"/>
+
+        <TextView
+            android:id="@+id/textView_login_account_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorSecondaryContents"
+            android:text="@string/login_account_label"
+            android:autoSizeTextType="uniform"
+            android:layout_below="@+id/imageView_applogo_large"
+            app:layout_widthPercent="30%"
+            app:layout_marginLeftPercent="10%"
+            app:layout_marginRightPercent="5%"
+            app:layout_marginTopPercent="7.5%"
+            app:layout_heightPercent="4%"/>
+
+        <TextView
+            android:id="@+id/textView_login_password_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_Password_label"
+            android:autoSizeTextType="uniform"
+            android:layout_below="@+id/textView_login_account_label"
+            android:textColor="?attr/colorSecondaryContents"
+            app:layout_widthPercent="35%"
+            app:layout_marginLeftPercent="10%"
+            app:layout_marginRightPercent="5%"
+            app:layout_marginTopPercent="7%"
+            app:layout_heightPercent="4%"/>
+
+        <EditText
+            android:id="@+id/editText_login_account_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:layout_below="@+id/imageView_applogo_large"
+            android:layout_toRightOf="@+id/textView_login_account_label"
+            android:textColor="?attr/colorPrimaryContents"
+            android:background="@drawable/backgournd_border"
+            app:layout_widthPercent="45%"
+            app:layout_heightPercent="8%"
+            app:layout_marginTopPercent="5%"/>
+
+        <EditText
+            android:id="@+id/editText_login_password_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:background="@drawable/backgournd_border"
+            android:inputType="textPassword"
+            android:layout_below="@+id/editText_login_account_input"
+            android:textColor="?attr/colorPrimaryContents"
+            android:layout_toRightOf="@+id/textView_login_account_label"
+            app:layout_widthPercent="45%"
+            app:layout_heightPercent="8%"
+            app:layout_marginTopPercent="3%"/>
+
+        <Button
+            android:id="@+id/button_submit"
+            android:background="@drawable/backgournd_border"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_button_login"
+            android:layout_below="@+id/imageView_applogo_large"
+            android:textColor="?attr/colorPrimaryContents"
+            android:layout_centerHorizontal="true"
+            app:layout_marginTopPercent="35%"
+            app:layout_heightPercent="8%"
+            app:layout_widthPercent="30%"/>
+
+        <TextView
+            android:id="@+id/textView_text_create_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_text_create_account"
+            android:textAlignment="center"
+            android:textColor="?attr/colorAgreement"
+            android:autoSizeTextType="uniform"
+            android:layout_below="@+id/button_submit"
+            android:layout_centerHorizontal="true"
+            app:layout_marginTopPercent="1%"
+            android:onClick="onClickSignUp"
+            app:layout_heightPercent="6%"
+            app:layout_widthPercent="50%"/>
+    </android.support.percent.PercentRelativeLayout>
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,40 @@
+<android.support.percent.PercentRelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="?attr/colorWhiteBackground">
+
+
+    <ImageView
+        android:id="@+id/ImageView_welcomepage_applogo"
+        app:layout_widthPercent="70%"
+        app:layout_heightPercent="50%"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:layout_marginTopPercent="5%"/>
+
+    <TextView
+        android:id="@+id/textView_welcomepage_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImageView_welcomepage_applogo"
+        android:textColor="?attr/colorSecondaryContents"
+        android:text="@string/welcomepage_text"
+        android:autoSizeTextType="uniform"
+        app:layout_marginTopPercent="13%"
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="3%"
+        app:layout_marginLeftPercent="10%"/>
+
+    <ImageView
+        android:id="@+id/imageView_welcomepage_companylogo"
+        android:layout_below="@+id/ImageView_welcomepage_applogo"
+        android:layout_alignParentRight="true"
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="20%"
+        app:layout_marginRightPercent="10%" />
+</android.support.percent.PercentRelativeLayout>

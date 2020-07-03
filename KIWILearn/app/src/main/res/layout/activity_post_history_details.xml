@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostHistoryDetailsActivity"
+    android:background="?attr/colorWhiteBackground">
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/layout_header"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="8%"
+        android:background="?attr/colorWhiteBackground">
+
+        <ImageView
+            android:id="@+id/imageView_applogo_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="90%"
+            app:layout_marginLeftPercent="1%"
+            app:layout_marginRightPercent="1%"
+            app:layout_marginTopPercent="5%"/>
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="wrap_content"
+            android:textColor="?attr/colorSecondaryContents"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView_applogo_small"
+            android:layout_alignBottom="@id/imageView_applogo_small"
+            android:text="TextView"
+            android:textSize="26dp"
+            app:layout_marginLeftPercent="1%"
+            app:layout_marginRightPercent="1%"
+            app:layout_marginTopPercent="5%"/>
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:background="@drawable/backgournd_border"
+            android:layout_alignParentBottom="true"
+            app:layout_heightPercent="3%"/>
+
+    </android.support.percent.PercentRelativeLayout>
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/layout_body"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="84%"
+        android:layout_below="@+id/layout_header"
+        android:background="?attr/colorGreyBackground">
+
+
+        <android.support.percent.PercentRelativeLayout
+            android:id="@+id/layout_body_content2"
+            app:layout_marginTopPercent="2%"
+            app:layout_widthPercent="94%"
+            app:layout_marginLeftPercent="3%"
+            app:layout_heightPercent="96%"
+            android:background="?attr/colorWhiteBackground">
+
+            <TextView
+                android:id="@+id/textView_course_details_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:autoSizeTextType="uniform"
+                android:textAlignment="center"
+                android:textColor="?attr/colorPrimaryContents"
+                app:layout_widthPercent="50%"
+                app:layout_heightPercent="14%"
+                app:layout_marginTopPercent="9%"
+                android:text="Title" />
+
+            <TextView
+                android:id="@+id/textView_course_details_introduction"
+                android:layout_below="@id/textView_course_details_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="?attr/colorSecondaryContents"
+                android:autoSizeTextType="uniform"
+                android:gravity="start|top"
+                app:layout_widthPercent="70%"
+                app:layout_heightPercent="24%"
+                app:layout_marginTopPercent="2%"
+                android:text="Brief introduction" />
+
+            <TextView
+                android:id="@+id/textView_course_details_requirements"
+                android:layout_below="@+id/textView_course_details_introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start|top"
+                android:layout_centerHorizontal="true"
+                android:textColor="?attr/colorSecondaryContents"
+                android:autoSizeTextType="uniform"
+                app:layout_widthPercent="70%"
+                app:layout_heightPercent="24%"
+                app:layout_marginTopPercent="2%"
+                android:text="Requirements" />
+
+            <TextView
+                android:id="@+id/textView_course_details_fees"
+                android:layout_below="@id/textView_course_details_requirements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                app:layout_widthPercent="70%"
+                android:textColor="?attr/colorSecondaryContents"
+                android:gravity="start|top"
+                app:layout_heightPercent="8%"
+                app:layout_marginTopPercent="2%"
+                android:autoSizeTextType="uniform"
+                android:text="Fees" />
+            <TextView
+                android:id="@+id/textView_course_details_contacts"
+                android:layout_below="@id/textView_course_details_fees"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:autoSizeTextType="uniform"
+                app:layout_widthPercent="70%"
+                app:layout_heightPercent="8%"
+                android:textColor="?attr/colorSecondaryContents"
+                android:gravity="start|top"
+                app:layout_marginTopPercent="2%"
+                android:text="Contacts" />
+
+            <TextView
+                android:id="@+id/textView_course_details_postdate"
+                android:layout_width="wrap_content"
+                android:textColor="?attr/colorSecondaryContents"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
+                android:layout_alignParentRight="true"
+                app:layout_widthPercent="20%"
+                app:layout_heightPercent="12%"
+                app:layout_marginTopPercent="0.5%"
+                android:text="Post date:\n01 Mar 2019" />
+
+            <ImageView
+                android:id="@+id/imageView_back"
+                android:layout_width="wrap_content"
+                android:tint="?attr/colorPrimaryContents"
+                android:layout_height="wrap_content"
+                android:onClick="onClickBack_H"
+                app:layout_widthPercent="5%"
+                app:layout_heightPercent="10%"
+                app:layout_marginTopPercent="1%"
+                app:layout_marginLeftPercent="2%"/>
+
+            <TextView
+                android:id="@+id/textView_back"
+                android:textColor="?attr/colorSecondaryContents"
+                android:onClick="onClickBack_H"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_toRightOf="@id/imageView_back"
+                android:layout_alignTop="@id/imageView_back"
+                android:autoSizeTextType="uniform"
+                app:layout_widthPercent="10%"
+                app:layout_heightPercent="4%"
+                app:layout_marginTopPercent="3%"
+                app:layout_marginLeftPercent="0.5%"/>
+        </android.support.percent.PercentRelativeLayout>
+    </android.support.percent.PercentRelativeLayout>
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="8%"
+        android:layout_below="@+id/layout_body"
+        android:background="?attr/colorWhiteBackground">
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:background="@drawable/backgournd_border"
+            android:layout_alignParentTop="true"
+            app:layout_heightPercent="3%"/>
+
+        <ImageView
+            android:id="@+id/imageView_nav_home"
+            android:onClick="onClickHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="8%"
+            android:tint="?attr/colorPrimaryContents"
+            app:layout_marginLeftPercent="6%"
+            app:layout_widthPercent="17.5%"
+            app:layout_heightPercent="60%"/>
+        <ImageView
+            android:id="@+id/imageView_nav_post"
+            android:onClick="onClickPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView_nav_home"
+            app:layout_marginLeftPercent="7%"
+            app:layout_marginTopPercent="8%"
+            android:tint="?attr/colorPrimaryContents"
+            app:layout_widthPercent="17.5%"
+            app:layout_heightPercent="60%"/>
+        <ImageView
+            android:id="@+id/imageView_nav_course"
+            android:onClick="onClickCourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView_nav_post"
+            app:layout_marginLeftPercent="5%"
+            app:layout_marginTopPercent="8%"
+            android:tint="?attr/colorPrimaryContents"
+            app:layout_widthPercent="17.5%"
+            app:layout_heightPercent="60%"/>
+        <ImageView
+            android:id="@+id/imageView_nav_me"
+            android:onClick="onClickMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView_nav_course"
+            app:layout_marginLeftPercent="6%"
+            app:layout_marginTopPercent="8%"
+            android:tint="?attr/colorPrimaryContents"
+            app:layout_widthPercent="17.5%"
+            app:layout_heightPercent="60%"/>
+
+        <TextView
+            android:id="@+id/textView_nav_home"
+            android:onClick="onClickHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView_nav_home"
+            android:text="Home"
+            android:textColor="?attr/colorSecondaryContents"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"
+            app:layout_marginLeftPercent="6%"
+            app:layout_widthPercent="17.5%"
+            app:layout_heightPercent="30%"/>
+
+        <TextView
+            android:id="@+id/textView_nav_post"
+            android:onClick="onClickPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView_nav_post"
+            android:textColor="?attr/colorSecondaryContents"
+            android:layout_toRightOf="@+id/textView_nav_home"
+            android:text="Post"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"
+            app:layout_marginLeftPercent="6%"
+            app:layout_widthPercent="17.5%"
+            app:layout_heightPercent="30%"/>
+
+        <TextView
+            android:id="@+id/textView_nav_course"
+            android:onClick="onClickCourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView_nav_course"
+            android:layout_toRightOf="@+id/textView_nav_post"
+            android:autoSizeTextType="uniform"
+            android:textColor="?attr/colorSecondaryContents"
+            android:text="Course"
+            android:textAlignment="center"
+            app:layout_heightPercent="30%"
+            app:layout_marginLeftPercent="6%"
+            app:layout_widthPercent="17.5%" />
+
+        <TextView
+            android:id="@+id/textView_nav_me"
+            android:onClick="onClickMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView_nav_me"
+            android:layout_toRightOf="@+id/textView_nav_course"
+            android:textColor="?attr/colorSecondaryContents"
+            android:autoSizeTextType="uniform"
+            android:text="Me"
+            android:textAlignment="center"
+            app:layout_heightPercent="30%"
+            app:layout_marginLeftPercent="6%"
+            app:layout_widthPercent="17.5%" />
+
+    </android.support.percent.PercentRelativeLayout>
+</android.support.percent.PercentRelativeLayout>

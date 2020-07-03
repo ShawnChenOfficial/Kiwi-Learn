@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme -->
+    <style name="LightNoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorBorder">#000000</item>
+        <item name="colorDisable">#919499</item>
+        <item name="colorPrimaryContents">#000000</item>
+        <item name="colorSecondaryContents">#707070</item>
+        <item name="colorGreyBackground">#f2f2f2</item>
+        <item name="colorWhiteBackground">#ffffff</item>
+        <item name="colorAgreement">#04598E</item>
+        <item name="colorRadioOnChecked">#dd0b77</item>
+        <item name="colorButtonOnHome">#000000</item>
+    </style>
+    <!-- Dark Theme -->
+    <style name="NightNoActionBar" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorBorder">#b2b5ba</item>
+        <item name="colorDisable">#707070</item>
+        <item name="colorPrimaryContents">#cccdce</item>
+        <item name="colorSecondaryContents">#9b9fa5</item>
+        <item name="colorGreyBackground">#141414</item>
+        <item name="colorWhiteBackground">#000000</item>
+        <item name="colorAgreement">#919499</item>
+        <item name="colorRadioOnChecked">#ce4e12</item>
+        <item name="colorButtonOnHome">#494a4c</item>
+    </style>
+</resources>

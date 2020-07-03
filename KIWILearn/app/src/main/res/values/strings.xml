@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kiwi Learn</string>
+    <string name="welcomepage_text">Powered by JoshRuna Co.</string>
+    <string name="welcomepage_button">Start</string>
+    <string name="login_account_label">Account Name:</string>
+    <string name="login_Password_label">Password:</string>
+    <string name="login_button_login">Log in</string>
+    <string name="login_text_create_account">Don\'t have account?\nClick here</string>
+    <string name="createAccount_subtitle">Sign in Kiwi Learn</string>
+    <string name="createAccount_username_label">Your account name:</string>
+    <string name="createAccount_password_label">Enter your password:</string>
+    <string name="createAccount_re_password_label">Re-enter your password:</string>
+    <string name="createAccount_email_label">Your email address:</string>
+    <string name="createAccount_aggree_policies">Agree with Kiwi Learn\'s policies</string>
+    <string name="createAccount_submit">Submit</string>
+    <string name="home_subtitle_course">Courses</string>
+    <string name="home_subtitle_post">To post your course information</string>
+    <string name="home_acedemic">Academic</string>
+    <string name="home_music">Music</string>
+    <string name="home_sport">Sport</string>
+    <string name="home_other">Other</string>
+    <string name="courses_button_search">Search</string>
+    <string name="post_category">Category</string>
+    <string-array name="post_category_items">
+        <item>Academic</item>
+        <item>Sports</item>
+        <item>Music</item>
+        <item>Computing</item>
+        <item>Art</item>
+        <item>Others</item>
+    </string-array>
+    <string name="post_title">Title</string>
+    <string name="post_introduction">Introduction</string>
+    <string name="post_requirement">Requirements</string>
+    <string name="post_contact">Contact</string>
+    <string name="post_duration">Duration</string>
+    <string name="post_fees">Fees</string>
+    <string-array name="post_duration">
+        <item>3 Days (free)</item>
+        <item>7 Days (free)</item>
+        <item>15 Days (free)</item>
+    </string-array>
+    <string name="post_submit">Submit</string>
+    <string name="me_posthistory">Post Historys</string>
+    <string name="me_settings">Settings</string>
+    <string name="me_aboutus">About Us</string>
+    <string name="me_logout">Log out</string>
+    <string name="me_policies">Policies</string>
+    <string name="edit_profile_learnpoint">Learn point</string>
+    <string name="edit_profile_learnpoint_value">Free</string>
+    <string name="edit_profile_top_up">Top Up</string>
+    <string name="edit_profile_withdraw">Withdraw</string>
+    <string name="edit_profile_name">Name</string>
+    <string name="edit_profile_gender">Gender</string>
+    <string name="edit_profile_region">Region</string>
+    <string name="edit_profile_email">Email</string>
+    <string name="edit_profile_aboutself">About yourself</string>
+    <string name="aboutus_subtitle">Kiwi Learn</string>
+    <string name="aboutus_details">Kiwi Learn is objective for the app is to make a platform for students outside of schooling hours to be able to ask questions and recieve help from people who are in the industry. This will give people the opportunity to find activities available in their area and what events are on</string>
+    <string name="policies_subtitle">Kiwi Learn\nTerms and Conditions</string>
+    <string name="policies_details">1. By accessing or using the KIWI LEARN App service made by KIWI LEARN, you agree to be bound by Terms and Conditions.
+\n\n2. The Service is owned and controlled by KIWI LEARN. Any misconducts including recompile, reverse engineer, disassemble, attempt to derive the source code of, decrypt the Application is completely not be tolerated.
+\n\n3. Furthermore, if you use this app for generating revenue or any kind of misdeeds without our consent will be penalized according to Cyber Law.
+\n\n\nIf you do not accept the terms and conditions above, we advise you not to download and use this app.</string>
+    <string name="setting_notification">Notification</string>
+    <string name="setting_notification_vibration">Notification Vibration</string>
+    <string name="setting_mode">Mode</string>
+    <string name="setting_language">Language</string>
+    <string-array name="setting_language">
+        <item>English</item>
+    </string-array>
+    <string name="setting_textvoice">Text Voice</string>
+    <string name="setting_reset_passwor">Change Password</string>
+    <string name="changepassword_password">Your old password:</string>
+    <string name="changepassword_newpassword">New password:</string>
+    <string name="changepassword_re_entre_new_password">Re-enter new password:</string>
+</resources>

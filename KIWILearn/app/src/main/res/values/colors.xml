@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Mode
+    <color name="colorDisable">#919499</color>
+    <color name="colorBorder">#000000</color>
+    <color name="colorPrimaryContents">#000000</color>
+    <color name="colorSecondaryContents">#707070</color>
+    <color name="colorGreyBackground">#f2f2f2</color>
+    <color name="colorWhiteBackground">#ffffff</color>
+    <color name="colorAgreement">#04598E</color>
+-->
+    <!-- Dark Mode
+    <color name="colorDisable_night">#707070</color>
+    <color name="colorBorder_night">#ffffff</color>
+    <color name="colorPrimaryContents_night">#ffffff</color>
+    <color name="colorSecondaryContents_night">#919499</color>
+    <color name="colorGreyBackground_night">#414142</color>
+    <color name="colorWhiteBackground_night">#000000</color>
+    <color name="colorAgreement_night">#919499</color>
+-->
+</resources>

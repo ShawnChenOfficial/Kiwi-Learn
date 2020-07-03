@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:right="13dp">
+                <shape android:shape="oval">
+                    <size android:width="20dp" android:height="20dp" />
+                    <solid android:color="?attr/colorWhiteBackground" />
+                    <shape android:shape="oval">
+                        <size android:width="20dp" android:height="20dp" />
+                        <solid android:color="?attr/colorRadioOnChecked" />
+                        <stroke android:width="2dip" android:color="?attr/colorRadioOnChecked" />
+                    </shape>
+                    <stroke android:width="2dip" android:color="?attr/colorRadioOnChecked" />
+                </shape>
+            </item>
+            <item android:right="15dp"
+                android:top="2dp"
+                android:left="2dp"
+                android:bottom="2dp">
+                <shape android:shape="oval">
+                    <size android:width="17dp" android:height="17dp" />
+                    <solid android:color="?attr/colorRadioOnChecked" />
+                    <stroke android:width="2dip" android:color="?attr/colorWhiteBackground" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_checked="false">
+        <layer-list>
+            <item android:right="13dp">
+                <shape android:shape="oval">
+                    <size android:width="20dp" android:height="20dp" />
+                    <solid android:color="?attr/colorWhiteBackground" />
+                    <stroke android:width="2dip" android:color="?attr/colorSecondaryContents" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
